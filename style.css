@@ -133,7 +133,7 @@ span {
 
 .imfor {
     height: 133px;
-    margin-top: 503px;
+    margin-top: 543px;
     background-color: #f6f9fc;
     border: 1px solid rgba(194, 175, 175, 0.656);
 }
@@ -1141,6 +1141,7 @@ h5 {
     }
 
     .highfie {
+        width: 400px;
         height: 900px;
         /* background-color: #111111; */
     }
@@ -1211,7 +1212,7 @@ h5 {
     }
 
     .growthing {
-        width: 600px;
+        width: 400px;
         margin-top: 120px;
         height: 1240px;
         margin-left: 0px;
@@ -1333,6 +1334,7 @@ h5 {
         background-color: #f6f9fc;
         height: 600px;
         margin-left: -15px;
+        width: 400px;
     }
 
     .approch .col-lg-4 {
