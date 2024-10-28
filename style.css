@@ -3,7 +3,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .home .navbar-brand img {
@@ -917,9 +917,13 @@ h5 {
 }
 
 @media (max-width:992px) {
-    body{
+    .highfie,
+    .growthing,
+    .approch {
         overflow-x: hidden;
+        max-width: 100%;
     }
+
     .navbar-nav .nav-link {
         font-size: 20px;
     }
@@ -983,7 +987,8 @@ h5 {
     .infinite-2 {
         margin-top: 5px;
     }
-    .commit{
+
+    .commit {
         font-size: 17px;
         font-weight: 700;
         color: #111111;
@@ -1279,7 +1284,7 @@ h5 {
         margin-left: -27px;
         margin-top: 23px;
     }
-    
+
     .footer a {
         display: block;
         margin-top: 2px;
@@ -1346,7 +1351,7 @@ h5 {
     .approch .col-lg-3 {
         width: 94%;
     }
-    
+
     .approch .col-lg-4 h5 {
         font-size: 21px;
         font-weight: 800;
@@ -1403,7 +1408,7 @@ h5 {
     .selfless .col-lg-3 {
         width: 95%;
     }
-    
+
     .selfless .col-lg-3 h3 {
         margin-top: -160px;
         font-size: 20px;
@@ -1546,11 +1551,11 @@ h5 {
         padding-left: 0px;
         /* background-color: #111111; */
     }
-    
+
     .local-sher h1 {
         font-size: 34px;
     }
-    
+
     .local-sher .col-lg-6 {
         margin-left: 12px;
         padding-left: 0px;
@@ -1578,7 +1583,7 @@ h5 {
     .local-sher .col-lg-6 .lead {
         margin-left: 0px;
     }
-    
+
     .questions {
         /* margin-top: 240px; */
         padding-top: 0px;
@@ -1597,7 +1602,7 @@ h5 {
         height: 20rem;
         margin-top: 173px;
     }
-    
+
     .questions .accordion-button {
         font-size: 16px;
         font-weight: 700;
