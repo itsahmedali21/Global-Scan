@@ -917,11 +917,15 @@ h5 {
 }
 
 @media (max-width:992px) {
+
+    body{
+        overflow: hidden;
+    }
     .highfie,
     .growthing,
     .approch {
         overflow-x: hidden;
-        max-width: 100%;
+        max-width: 100vw;
     }
 
     .navbar-nav .nav-link {
@@ -1035,6 +1039,7 @@ h5 {
         float: inline-start;
         height: 338px;
         margin-top: -123px;
+        width: 95%;
     }
 
     .lgd {
