@@ -919,7 +919,7 @@ h5 {
 @media (max-width:992px) {
 
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .highfie,
     .growthing,
