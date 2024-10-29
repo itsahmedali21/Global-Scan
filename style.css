@@ -996,6 +996,7 @@ h5 {
 
     .infinite {
         margin-top: 686px;
+        width: 96%;
     }
 
     .infinite-2 {
@@ -1094,6 +1095,14 @@ h5 {
 
     .beauty-control {
         margin-top: 67px;
+        width: 490px;
+        margin-left: 0px;
+    }
+    .beauty-control h1{
+        font-family: "Inter", sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 66px;
     }
 
     .frst-2 {
@@ -1588,14 +1597,12 @@ h5 {
         height: 1400px;
         padding-left: 0px;
         width: 95%;
-        background-color: #185c90;
         margin-top: 45px;
     }
 
     .local-sher {
         height: 1050px;
         padding-left: 0px;
-        /* background-color: #111111; */
     }
 
     .local-sher h1 {
