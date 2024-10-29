@@ -1101,13 +1101,18 @@ h5 {
     }
 
     .frst-3 {
-        font-size: 57px;
+        font-size: 55px;
         margin-left: 0px;
-        letter-spacing: -1.25px;
+        max-width: 257px;
+        letter-spacing: -3.25px;
     }
-
+    
     .frst-4 {
         margin-left: 0;
+    }
+    .shrita{
+        /* background-color: #111111; */
+        width: 96%;
     }
 
     .shrita .col-lg-6 img {
@@ -1169,7 +1174,7 @@ h5 {
         height: 900px;
         /* background-color: #111111; */
     }
-
+    
     .highfie .col-lg-7 {
         height: 350px;
     }
@@ -1321,7 +1326,7 @@ h5 {
         margin-top: 2310px;
         height: 400px;
     }
-
+    
     .expert-life {
         height: 400px;
         padding-left: 73px;
@@ -1582,6 +1587,8 @@ h5 {
     .livetik {
         height: 1400px;
         padding-left: 0px;
+        width: 95%;
+        background-color: #185c90;
         margin-top: 45px;
     }
 
@@ -1647,4 +1654,4 @@ h5 {
         font-weight: 700;
         color: #111111;
     }
-}
+    }
