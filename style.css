@@ -392,6 +392,14 @@ section:nth-child(even) {
     margin-left: 137px;
 }
 
+.beauty-control{
+    width: 1202px;
+    margin-left: 133px;
+    height: 440px;
+    background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
+    background-color: #111111;
+}
+
 .beauty h1 {
     font-family: "Inter", sans-serif;
     font-size: 57px;
@@ -1081,6 +1089,9 @@ h5 {
         padding-top: 125px;
         max-width: 666px;
     }
+    .beauty-control{
+        margin-top: 67px;
+    }
 
     .frst-2 {
         font-size: 43px;
@@ -1151,7 +1162,7 @@ h5 {
     }
 
     .highfie {
-        width: 360px;
+        width: 355px;
         height: 900px;
         /* background-color: #111111; */
     }
@@ -1222,7 +1233,7 @@ h5 {
     }
 
     .growthing {
-        width: 400px;
+        width: 380px;
         margin-top: 120px;
         height: 1240px;
         margin-left: 0px;
@@ -1623,7 +1634,7 @@ h5 {
     }
 
     .questions .col-lg-5 img {
-        width: 60%;
+        width: 95%;
         height: 18rem;
     }
 
