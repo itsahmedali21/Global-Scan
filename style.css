@@ -935,11 +935,16 @@ h5 {
 @media (max-width:992px) {
 
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav{
+        margin-top: 45px;
     }
 
     .navbar-nav .nav-link {
-        font-size: 20px;
+        font-size: 17px;
+        margin-top: 34px;
     }
 
     .row {
@@ -1091,12 +1096,6 @@ h5 {
         font-weight: 600;
         padding-top: 125px;
         max-width: 666px;
-    }
-
-    .beauty-control {
-        margin-top: 67px;
-        width: 490px;
-        margin-left: 0px;
     }
     .beauty-control h1{
         font-family: "Inter", sans-serif;
