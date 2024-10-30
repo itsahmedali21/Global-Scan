@@ -934,9 +934,11 @@ h5 {
 
 @media (max-width:992px) {
 
-    body {
-        overflow-x: hidden !important;
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
     }
+    
 
     .navbar-nav{
         margin-top: 45px;
