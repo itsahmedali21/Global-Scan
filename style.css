@@ -111,7 +111,7 @@ span {
     color: #111111;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    margin-top: 90px;
+    margin-top: 210px;
     font-size: 72px;
     margin-left: 63px;
     transition: opacity 1s ease-out, transform 1s ease-out;
@@ -1176,6 +1176,7 @@ h5 {
         font-size: 46px;
         margin-left: 0px;
         max-width: 257px;
+        margin-top: 30px;
         font-weight: 700;
         letter-spacing: -3.05px;
     }
@@ -1685,10 +1686,11 @@ h5 {
     .quoter {
         font-size: 44px;
         letter-spacing: -1.6px;
-        max-width: 426px;
+        max-width: 325px;
         font-weight: 700;
+        text-align: center;
         line-height: 51px;
-        margin-left: -51px;
+        margin-left: -19px;
         margin-top: 123px;
     }
 
