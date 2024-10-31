@@ -94,6 +94,7 @@ span {
     color: #111111;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    margin-top: 48px;
     font-size: 72px;
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
@@ -237,9 +238,10 @@ section:nth-child(even) {
     float: inline-end;
 }
 
-.dinest{
+.dinest {
     margin-top: 490px;
 }
+
 .frontend {
     height: 430px;
     margin-top: 55px;
@@ -259,6 +261,10 @@ section:nth-child(even) {
     background-color: #f6f9fc;
     margin-left: 23px;
     height: 450px;
+}
+
+.Expert .col-lg-5 img{
+    height: 413px;
 }
 
 .expert-life {
@@ -345,6 +351,14 @@ section:nth-child(even) {
     padding-left: 25px;
 }
 
+.ordinory .col-lg-4 {
+    background-color: #2164a7;
+    height: 200px;
+    width: 350px;
+    font-size: 23px;
+    margin-left: 23px;
+}
+
 .expert-life {
     width: 500px;
     /* padding-left: 76px; */
@@ -395,6 +409,10 @@ section:nth-child(even) {
     height: 630px;
     margin-left: 134px;
     width: 1200px;
+}
+
+.growthing .col-lg-4 img {
+    height: 500px;
 }
 
 .beauty {
@@ -579,6 +597,15 @@ section:nth-child(even) {
     margin-left: 54px;
 }
 
+.approched {
+    margin-top: 145px;
+    height: 990px;
+}
+
+.approch img {
+    /* height: 685px; */
+}
+
 .approch .btn {
     padding: 42px 28px;
     padding-top: 15px;
@@ -619,6 +646,10 @@ section:nth-child(even) {
     padding-top: 45px;
     width: 360px;
     padding-left: 34px;
+}
+
+.men-meeting {
+    margin-top: 0px;
 }
 
 .men-meeting h5 {
@@ -1024,7 +1055,7 @@ h5 {
     }
 
     .global .col-lg-6 img {
-        height: 414px;
+        height: 374px;
         margin-left: -42px;
     }
 
@@ -1032,13 +1063,14 @@ h5 {
         margin-top: 22px;
         line-height: 31px;
     }
-    .dinest{
+
+    .dinest {
         margin-top: 367px;
     }
 
     .imfor {
         height: 380px;
-        margin-top: 484px;
+        margin-top: 443px;
     }
 
     .general {
@@ -1058,16 +1090,18 @@ h5 {
     }
 
     .commit {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
         color: #111111;
         opacity: 0.78;
     }
 
     .future h1 {
-        font-size: 30px;
+        margin-top: 22px;
+        font-size: 31px;
         margin-left: 12px;
         width: 555px;
+        margin-bottom: 26px;
         font-weight: 700;
     }
 
@@ -1091,6 +1125,7 @@ h5 {
 
     .Expert .col-lg-5 img {
         width: 310px;
+        height: 240px;
     }
 
     .type {
@@ -1124,6 +1159,10 @@ h5 {
         height: 1700px;
     }
 
+    .box-office-3 .local-sec .love {
+        margin-top: 45px;
+    }
+
     .box-office-3 .knowladge .col-lg-4 {
         margin-left: -16px;
         width: 95%;
@@ -1134,14 +1173,19 @@ h5 {
     }
 
     .beauty-group {
+        padding-left: 0;
+        padding-right: 0;
         width: 100vw;
+        background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
         margin-left: 0px;
+        background-color: #111111;
     }
 
     .beauty-group h1 {
         font-family: "Inter", sans-serif;
         font-size: 38px;
         font-weight: 600;
+        text-align: center;
         padding-top: 125px;
         max-width: 666px;
     }
@@ -1213,15 +1257,23 @@ h5 {
     }
 
     .box-office-2 .local-sec .col-lg-4 {
-        margin-top: 23px;
+        margin-top: 13px;
         padding-right: 32px;
         width: 90%;
         margin-left: 18px;
     }
 
+    .lineties {
+        margin-top: -30px;
+    }
+
+    .len {
+        margin-top: -50px;
+    }
+
     .box-office {
         margin-top: 237px;
-        height: 600px;
+        height: 535px;
     }
 
     .box-office .local-sec {
@@ -1282,14 +1334,14 @@ h5 {
         font-size: 19px;
         display: block;
         font-weight: 800;
-        opacity: 0.72;
+        opacity: 0.92;
 
     }
 
     .local-sec .col-lg-3 h2 {
-        font-size: 21px;
+        font-size: 19px;
         display: block;
-        opacity: 0.68;
+        opacity: 0.92;
         font-weight: 800;
     }
 
@@ -1313,6 +1365,7 @@ h5 {
     }
 
     .growthing {
+        padding-left: 10px;
         width: 380px;
         margin-top: 120px;
         height: 1240px;
@@ -1326,7 +1379,8 @@ h5 {
 
     .growthing .lead {
         font-size: 15px;
-        width: 350px;
+        width: 312px;
+        line-height: 28px;
         margin-bottom: 12px;
     }
 
@@ -1336,7 +1390,8 @@ h5 {
 
     .growthing .col-lg-4 img {
         width: 306px;
-        height: 300px;
+        margin-top: 55px;
+        height: 308px;
     }
 
     .part {
@@ -1406,10 +1461,11 @@ h5 {
         margin-left: 28px;
         opacity: 0.46;
         margin-top: 19px;
-        font-weight: 700;
+
     }
 
     .expert-life {
+        margin-top: -90px;
         height: 400px;
         padding-left: 73px;
     }
@@ -1442,9 +1498,17 @@ h5 {
     }
 
     .approch {
-        height: 1600px;
+        height: 1400px;
         margin-left: -15px;
         background-color: #f6f6fc;
+    }
+
+    .approch img{
+        height: 185px;
+    }
+    .approched {
+        /* margin-top: 145px; */
+        height: 990px;
     }
 
     .approch .btn {
@@ -1464,11 +1528,14 @@ h5 {
 
     .approch p {
         font-weight: 500;
+        line-height: 30px;
+        letter-spacing:  -0.8px;
+        font-size: 18px;
     }
 
     .approch .col-lg-4 {
         border: none;
-        height: 170px;
+        height: 190px;
         margin-top: 20px;
         padding-left: 0px;
 
@@ -1479,13 +1546,13 @@ h5 {
         margin-top: 45px;
         padding-left: 0px;
         border: none;
-        height: 170px;
+        height: 190px;
     }
 
     .men-meeting h5 {
         margin-left: 13px;
-        font-weight: 800;
-        font-size: 19px;
+        font-weight: 700;
+        font-size: 18px;
         opacity: 0.82;
     }
 
@@ -1494,7 +1561,7 @@ h5 {
         font-size: 35px;
         margin-left: 20px;
         margin-top: 67px;
-        letter-spacing: -1px;
+        letter-spacing: -1.5px;
         font-weight: 800;
     }
 
