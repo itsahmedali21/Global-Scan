@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,6 +7,7 @@
 :root {
     --color-side: #45779a;
 }
+
 body {
     overflow-x: hidden;
 }
@@ -102,6 +103,7 @@ span {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 72px;
+    margin-left: 60px;
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
@@ -115,6 +117,10 @@ span {
 }
 
 .frst-4 {
+    margin-left: 60px;
+}
+
+.farm {
     margin-left: 60px;
 }
 
@@ -227,6 +233,12 @@ section:nth-child(even) {
 .hello {
     height: 433px;
     float: inline-end;
+}
+
+.frontend {
+    height: 430px;
+    margin-top: 55px;
+
 }
 
 .box-office {
@@ -576,6 +588,15 @@ section:nth-child(even) {
     max-width: 555px;
 }
 
+.approch p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #111111;
+    opacity: 0.66;
+    margin-left: 8px;
+    margin-top: 14px;
+}
+
 .approch .col-lg-4 {
     height: 230px;
     margin-left: 12px;
@@ -593,6 +614,14 @@ section:nth-child(even) {
     padding-top: 45px;
     width: 360px;
     padding-left: 34px;
+}
+
+.men-meeting h5 {
+    margin-left: 13px;
+    font-weight: 600;
+    /* opacity: 0.98; */
+    opacity: 2;
+    font-size: 20px;
 }
 
 .clients {
@@ -688,8 +717,7 @@ section:nth-child(even) {
 }
 
 .beauty-parlour {
-    width: 1202px;
-    margin-left: 133px;
+    margin-left: 183px;
     margin-top: 45px;
 }
 
@@ -830,26 +858,33 @@ h5 {
 }
 
 .certi-portion .input-group {
-    width: 200px;
+    width: 500px;
     height: 70px;
     border: 1px solid gray;
     border-radius: 34px;
+}
+
+.certi-portion .col-lg-6 {
+    height: 180px;
+    padding-top: 29px;
+    padding-left: 34px;
 }
 
 .twenty-1 {
     border-left: 4px solid #45779a;
     opacity: 2;
     padding-left: 12px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 25px
 }
 
 .twenty-2 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     color: #111111;
     opacity: 0.66;
-    margin-left: -8px;
+    max-width: 556px;
+    margin-left: 21px;
     margin-top: 14px;
 }
 
@@ -939,19 +974,20 @@ h5 {
 
 @media (max-width:992px) {
 
-    html, body {
+    html,
+    body {
         overflow-x: hidden;
         width: 100%;
     }
-    
 
-    .navbar-nav{
-        margin-top: 45px;
+
+    .navbar-nav {
+        margin-top: 30px;
     }
 
     .navbar-nav .nav-link {
         font-size: 17px;
-        margin-top: 34px;
+        margin-top: 10px;
     }
 
     .row {
@@ -965,7 +1001,6 @@ h5 {
 
     .general h1 {
         font-size: 28px;
-        /* margin-right: 42px; */
         font-weight: 700;
         margin-left: 23px;
     }
@@ -979,14 +1014,13 @@ h5 {
     }
 
     .global .frst {
-        font-size: 45px;
-        line-height: 48px;
+        font-size: 42px;
+        line-height: 43px;
     }
 
     .global .col-lg-6 img {
         height: 414px;
         margin-left: -42px;
-        /* width: 98%; */
     }
 
     .scnd {
@@ -1016,14 +1050,14 @@ h5 {
     }
 
     .commit {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 700;
         color: #111111;
         opacity: 0.78;
     }
 
     .future h1 {
-        font-size: 32px;
+        font-size: 28px;
         margin-left: 12px;
         width: 555px;
         font-weight: 700;
@@ -1049,7 +1083,7 @@ h5 {
     }
 
     .Expert .col-lg-5 img {
-        width: 324px;
+        width: 290px;
     }
 
     .type {
@@ -1104,7 +1138,8 @@ h5 {
         padding-top: 125px;
         max-width: 666px;
     }
-    .beauty-control h1{
+
+    .beauty-control h1 {
         font-family: "Inter", sans-serif;
         font-size: 50px;
         font-weight: 600;
@@ -1112,26 +1147,43 @@ h5 {
     }
 
     .frst-2 {
-        font-size: 43px;
+        margin-left: 0px;
+        font-weight: 800;
+        opacity: 0.81;
+        color: #111111;
+        line-height: 46px;
+        letter-spacing: -0.75px;
+        font-size: 40px;
+    }
+
+    .farm {
+        margin-left: 0;
+    }
+
+    .frontend {
+        height: 340px;
+        width: 100%;
     }
 
     .frst-3 {
-        font-size: 55px;
+        font-size: 46px;
         margin-left: 0px;
         max-width: 257px;
-        letter-spacing: -3.25px;
+        font-weight: 700;
+        letter-spacing: -3.05px;
     }
-    
+
     .frst-4 {
         margin-left: 0;
     }
-    .shrita{
-        /* background-color: #111111; */
+
+    .shrita {
         width: 96%;
     }
 
     .shrita .col-lg-6 img {
         margin-top: 23px;
+        width: 100%;
     }
 
     .box-office-2 .knowladge {
@@ -1177,7 +1229,6 @@ h5 {
 
     .box-office .col-lg-4 {
         height: 57px;
-        /* margin-top: 13px; */
     }
 
     .tire {
@@ -1187,9 +1238,8 @@ h5 {
     .highfie {
         width: 355px;
         height: 900px;
-        /* background-color: #111111; */
     }
-    
+
     .highfie .col-lg-7 {
         height: 350px;
     }
@@ -1225,7 +1275,7 @@ h5 {
         font-size: 19px;
         display: block;
         font-weight: 800;
-        opacity: 0.78;
+        opacity: 0.72;
 
     }
 
@@ -1298,17 +1348,17 @@ h5 {
 
     .beauty h1 {
         font-family: "Inter", sans-serif;
-        font-size: 38px;
-        font-weight: 600;
+        font-size: 35px;
+        opacity: 0.81;
+        font-weight: 800;
         padding-top: 125px;
-        max-width: 666px;
     }
 
     .contact-us {
         margin-top: 133px;
         margin-left: 0px;
         height: 917px;
-        width: 94%;
+        width: 98%;
     }
 
     .contact-us .col-lg-7 {
@@ -1321,12 +1371,14 @@ h5 {
 
     .contact-us .footer {
         margin-left: -27px;
-        margin-top: 23px;
+        margin-top: 31px;
     }
 
     .footer a {
+        opacity: 0.69;
         display: block;
         margin-top: 2px;
+        /* font-weight: 600; */
         margin-top: 12px;
         margin-bottom: 2px;
     }
@@ -1341,7 +1393,15 @@ h5 {
         margin-top: 2310px;
         height: 400px;
     }
-    
+
+    .knowladge .col-lg-4 p {
+        font-size: 18px;
+        margin-left: 28px;
+        opacity: 0.46;
+        margin-top: 19px;
+        font-weight: 700;
+    }
+
     .expert-life {
         height: 400px;
         padding-left: 73px;
@@ -1375,56 +1435,68 @@ h5 {
     }
 
     .approch {
-        height: 600px;
+        height: 1600px;
         margin-left: -15px;
-        width: 360px;
+        width: 100%;
+        background-color: #f6f6fc;
     }
 
     .approch .btn {
         margin-left: -9px;
         text-align: center;
+        margin-left: 14px;
         font-size: 23px;
+        font-weight: 900;
         padding-left: 58px;
-        /* padding-top: 76px; */
-        padding: 18px;
-        /* padding-right: 56px; */
-        padding-left: 26px;
-        padding-bottom: 36px;
-        font-size: 11px;
-        padding-top: 8px;
+        width: 61%;
+        padding: 11px;
+        padding-right: 21px;
+        margin-top: 23px;
+        font-size: 20px;
+        padding-top: 13px;
+    }
+
+    .approch p {
+        font-weight: 500;
     }
 
     .approch .col-lg-4 {
-        width: 94%;
+        border: none;
+        height: 170px;
         margin-top: 20px;
+        padding-left: 0px;
 
     }
 
     .approch .col-lg-3 {
         width: 94%;
+        margin-top: 45px;
+        padding-left: 0px;
+        border: none;
+        height: 170px;
     }
 
-    .approch .col-lg-4 h5 {
-        font-size: 21px;
+    .men-meeting h5 {
+        margin-left: 13px;
         font-weight: 800;
+        font-size: 19px;
+        opacity: 0.82;
     }
 
     .approch h1 {
+        line-height: 36px;
         font-size: 35px;
-        margin-top: 64px;
+        margin-left: 20px;
+        margin-top: 67px;
+        letter-spacing: -1px;
         font-weight: 800;
-    }
-
-
-    .general {
-        /* height: 344px; */
-        display: none;
-        display: block;
     }
 
     .content-creator h1 {
         font-size: 45px;
-        line-height: 55px;
+        line-height: 51px;
+        opacity: 0.88;
+        font-weight: 800;
     }
 
     .teammates {
@@ -1468,18 +1540,34 @@ h5 {
 
     .selfless .col-lg-3 h3 {
         margin-top: -160px;
-        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.75px;
+        opacity: 0.89;
+        line-height: 29px;
+        font-size: 19px;
     }
 
     .selfless .col-lg-7 {
         margin-left: 0px;
         width: 95%;
+        height: 634px;
+    }
+
+    .sub {
+        margin-top: 42px;
+        border-radius: 36px;
+        margin-left: 18px;
     }
 
     .selfless .col-lg-7 h3 {
         margin-top: -160px;
-        font-size: 20px;
-        padding-right: 30px;
+        margin-left: -1px;
+        font-weight: 700;
+        letter-spacing: -0.75px;
+        max-width: 300px;
+        opacity: 0.81;
+        line-height: 34px;
+        font-size: 19px;
     }
 
     .paul {
@@ -1499,6 +1587,12 @@ h5 {
         margin-left: -10px;
     }
 
+    .certi-portion .col-lg-6 {
+        height: 120px;
+        padding-top: 29px;
+        padding-left: 34px;
+    }
+
     .certi-portion img {
         width: 96%;
         height: 270px;
@@ -1515,7 +1609,7 @@ h5 {
     }
 
     .today-lt .col-lg-6 {
-        margin-top: 25PX;
+        height: 100px;
     }
 
     .twenty-1 {
@@ -1524,14 +1618,20 @@ h5 {
         font-size: 21px;
         margin-left: 0px;
         color: #111111;
-        opacity: 0.95;
+        opacity: 0.81;
         font-family: "Inter", sans-serif;
     }
 
     .twenty-2 {
-        font-size: 16px;
+        font-size: 17px;
+        margin-top: 12px;
+        line-height: 30px;
+        font-weight: 700;
+        padding-right: 12px;
         font-family: "Inter", sans-serif;
         margin-left: 3px;
+        letter-spacing: -0.67px;
+        opacity: 0.39;
     }
 
     .jobs h1 {
@@ -1540,18 +1640,20 @@ h5 {
     }
 
     .jobs p {
-        margin-top: 12px;
+        margin-top: 27px;
+        font-weight: 700;
+        opacity: 0.82;
     }
 
     .jobs h6 {
-        margin-top: 12px;
+        margin-top: 22px;
         margin-left: 12px;
         font-size: 21px;
         font-weight: 600;
     }
 
     .jobs h5 {
-        margin-top: 12px;
+        margin-top: 32px;
         margin-left: 12px;
         font-size: 21px;
         font-weight: 600;
@@ -1568,7 +1670,7 @@ h5 {
 
     .clients {
         height: 1300px;
-        width: 340px;
+        margin-top: 0;
     }
 
     .frst-section h1 {
@@ -1576,9 +1678,11 @@ h5 {
     }
 
     .quoter {
-        font-size: 46px;
+        font-size: 49px;
+        letter-spacing: -1.6px;
         max-width: 426px;
         font-weight: 700;
+        line-height: 51px;
         margin-left: -21px;
         margin-top: 123px;
     }
@@ -1667,4 +1771,4 @@ h5 {
         font-weight: 700;
         color: #111111;
     }
-    }
+}
