@@ -111,6 +111,7 @@ span {
     color: #111111;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    margin-top: 90px;
     font-size: 72px;
     margin-left: 63px;
     transition: opacity 1s ease-out, transform 1s ease-out;
@@ -144,7 +145,7 @@ span {
 
 .imfor {
     height: 133px;
-    margin-top: 543px;
+    margin-top: 600px;
     background-color: #f6f9fc;
     border: 1px solid rgba(194, 175, 175, 0.656);
 }
@@ -152,6 +153,7 @@ span {
 
 .infinite {
     height: 370px;
+    margin-top: 43px;
 
 }
 
@@ -235,6 +237,9 @@ section:nth-child(even) {
     float: inline-end;
 }
 
+.dinest{
+    margin-top: 490px;
+}
 .frontend {
     height: 430px;
     margin-top: 55px;
@@ -257,7 +262,7 @@ section:nth-child(even) {
 }
 
 .expert-life {
-    padding-top: 74px;
+    padding-top: 34px;
     padding-left: 17px;
     width: 400px;
 }
@@ -1027,10 +1032,13 @@ h5 {
         margin-top: 22px;
         line-height: 31px;
     }
+    .dinest{
+        margin-top: 367px;
+    }
 
     .imfor {
         height: 380px;
-        margin-top: 414px;
+        margin-top: 484px;
     }
 
     .general {
@@ -1041,7 +1049,7 @@ h5 {
     }
 
     .infinite {
-        margin-top: 686px;
+        margin-top: 730px;
         width: 96%;
     }
 
@@ -1050,14 +1058,14 @@ h5 {
     }
 
     .commit {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 700;
         color: #111111;
         opacity: 0.78;
     }
 
     .future h1 {
-        font-size: 28px;
+        font-size: 30px;
         margin-left: 12px;
         width: 555px;
         font-weight: 700;
@@ -1078,12 +1086,11 @@ h5 {
     }
 
     .Expert {
-        width: 95%;
         height: 818px;
     }
 
     .Expert .col-lg-5 img {
-        width: 290px;
+        width: 310px;
     }
 
     .type {
@@ -1236,7 +1243,6 @@ h5 {
     }
 
     .highfie {
-        width: 355px;
         height: 900px;
     }
 
@@ -1280,9 +1286,9 @@ h5 {
     }
 
     .local-sec .col-lg-3 h2 {
-        font-size: 22px;
+        font-size: 21px;
         display: block;
-        opacity: 0.78;
+        opacity: 0.68;
         font-weight: 800;
     }
 
@@ -1437,7 +1443,6 @@ h5 {
     .approch {
         height: 1600px;
         margin-left: -15px;
-        width: 100%;
         background-color: #f6f6fc;
     }
 
@@ -1678,12 +1683,12 @@ h5 {
     }
 
     .quoter {
-        font-size: 49px;
+        font-size: 44px;
         letter-spacing: -1.6px;
         max-width: 426px;
         font-weight: 700;
         line-height: 51px;
-        margin-left: -21px;
+        margin-left: -51px;
         margin-top: 123px;
     }
 
@@ -1700,7 +1705,7 @@ h5 {
     }
 
     .clients .lead {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .livetik {
