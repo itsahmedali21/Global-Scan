@@ -417,7 +417,15 @@ section:nth-child(even) {
 
 .beauty {
     width: 1202px;
-    margin-left: 133px;
+    margin-left: 203px;
+    height: 440px;
+    background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
+    background-color: #111111;
+}
+
+.beauty-cermon {
+    width: 1202px;
+    margin-left: 183px;
     height: 440px;
     background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
     background-color: #111111;
@@ -448,6 +456,14 @@ section:nth-child(even) {
     max-width: 666px;
 }
 
+.beauty-cermon h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 57px;
+    font-weight: 600;
+    padding-top: 125px;
+    max-width: 666px;
+}
+
 .beauty-group h1 {
     font-family: "Inter", sans-serif;
     font-size: 57px;
@@ -458,7 +474,7 @@ section:nth-child(even) {
 
 .contact-us {
     width: 1202px;
-    margin-left: 133px;
+    margin-left: 183px;
     height: 430px;
     background-color: #f6f9fc;
 }
@@ -478,6 +494,10 @@ section:nth-child(even) {
 
 .footer {
     margin-left: 50px;
+}
+.footer h6{
+    font-size: 17px;
+    font-weight: 700;
 }
 
 .footer-link {
@@ -778,6 +798,7 @@ section:nth-child(even) {
 
 .teammates .card-body {
     padding-left: 33px;
+    background-color: #f6f6fc;
 }
 
 .teammates .col-lg-4 {
@@ -1015,6 +1036,9 @@ h5 {
         overflow-x: hidden;
         width: 100%;
     }
+   h1,h2,h3,h4,h5,h6,p{
+    opacity: 0.83;
+   }
 
 
     .navbar-nav {
@@ -1024,6 +1048,8 @@ h5 {
     .navbar-nav .nav-link {
         font-size: 17px;
         margin-top: 10px;
+        margin-left: -20px;
+        letter-spacing: 1px;
     }
 
     .row {
@@ -1045,13 +1071,16 @@ h5 {
         font-weight: 700;
         font-size: 20px;
         margin-top: 7px;
+        opacity: 0.46;
         color: #111111;
         margin-left: 22px;
     }
 
     .global .frst {
         font-size: 42px;
-        line-height: 43px;
+        letter-spacing: -1.5px;
+        opacity: 1;
+        line-height: 46px;
     }
 
     .global .col-lg-6 img {
@@ -1065,12 +1094,14 @@ h5 {
     }
 
     .dinest {
-        margin-top: 367px;
+        position: relative;
+        top: -67px;
     }
 
     .imfor {
         height: 380px;
-        margin-top: 443px;
+        border: none;
+        margin-top: 433px;
     }
 
     .general {
@@ -1092,13 +1123,14 @@ h5 {
     .commit {
         font-size: 18px;
         font-weight: 700;
+        letter-spacing: 0.15px;
         color: #111111;
         opacity: 0.78;
     }
-
     .future h1 {
+        opacity: 0.88;
         margin-top: 22px;
-        font-size: 31px;
+        font-size: 28px;
         margin-left: 12px;
         width: 555px;
         margin-bottom: 26px;
@@ -1125,7 +1157,7 @@ h5 {
 
     .Expert .col-lg-5 img {
         width: 310px;
-        height: 240px;
+        height: 290px;
     }
 
     .type {
@@ -1170,6 +1202,9 @@ h5 {
 
     .box-office-3 .local-sec {
         height: 630px;
+    }
+    .men-meeting{
+        margin-top: -120px;
     }
 
     .beauty-group {
@@ -1281,6 +1316,10 @@ h5 {
         margin-top: -40px;
         width: 100%;
     }
+    .box-office h1{
+        font-size: 26px;
+        opacity: 0.88;
+    }
 
     .box-office .col-lg-3 {
         height: 122px;
@@ -1319,14 +1358,16 @@ h5 {
 
 
     .connect {
-        margin-left: 11px;
-        font-size: 18px;
-        margin-top: 9px;
+        margin-left: 23px;
+        font-size: 19px;
+        max-width: 276px;
+        margin-top: -2px;
         font-weight: 700;
     }
 
     .highfie .col-lg-7 img {
-        height: 326px;
+        height: 316px;
+        width: 29%;
     }
 
 
@@ -1373,14 +1414,15 @@ h5 {
     }
 
     .growthing .col-lg-7 h1 {
-        font-size: 26px;
+        font-size: 28px;
         width: 288px;
     }
 
     .growthing .lead {
         font-size: 15px;
         width: 312px;
-        line-height: 28px;
+        font-weight: 400;
+        line-height: 27px;
         margin-bottom: 12px;
     }
 
@@ -1390,7 +1432,7 @@ h5 {
 
     .growthing .col-lg-4 img {
         width: 306px;
-        margin-top: 55px;
+        margin-top: 95px;
         height: 308px;
     }
 
@@ -1402,6 +1444,20 @@ h5 {
         margin-top: 584px;
         width: 100vw;
         margin-left: 0px;
+    }
+    .beauty-cermon {
+        width: 100vw;
+        margin-left: 0px;
+        margin-top: 85px;
+    }
+
+    
+    .beauty-cermon h1 {
+        font-family: "Inter", sans-serif;
+        font-size: 35px;
+        opacity: 0.81;
+        font-weight: 800;
+        padding-top: 125px;
     }
 
     .beauty-parlour {
@@ -1419,7 +1475,7 @@ h5 {
     .contact-us {
         margin-top: 133px;
         margin-left: 0px;
-        height: 917px;
+        height: 957px;
         width: 98%;
     }
 
@@ -1435,13 +1491,18 @@ h5 {
         margin-left: -27px;
         margin-top: 31px;
     }
+    .footer h6{
+        font-size: 15px;
+    color: #111111;
+    font-weight: 700;
+    opacity: 1;
+    }
 
     .footer a {
-        opacity: 0.69;
+        opacity: 0.81;
         display: block;
-        margin-top: 2px;
-        /* font-weight: 600; */
-        margin-top: 12px;
+        letter-spacing: 0.67px;
+        margin-top: 16px;
         margin-bottom: 2px;
     }
 
@@ -1465,7 +1526,7 @@ h5 {
     }
 
     .expert-life {
-        margin-top: -90px;
+        margin-top: -15px;
         height: 400px;
         padding-left: 73px;
     }
@@ -1528,14 +1589,14 @@ h5 {
 
     .approch p {
         font-weight: 500;
-        line-height: 30px;
-        letter-spacing:  -0.8px;
-        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: -0.8px;
+        font-size: 19px;
     }
 
     .approch .col-lg-4 {
         border: none;
-        height: 190px;
+        height: 210px;
         margin-top: 20px;
         padding-left: 0px;
 
@@ -1546,7 +1607,7 @@ h5 {
         margin-top: 45px;
         padding-left: 0px;
         border: none;
-        height: 190px;
+        height: 210px;
     }
 
     .men-meeting h5 {
@@ -1596,7 +1657,6 @@ h5 {
     }
 
     .teammates .col-lg-4 {
-        background-color: #f6f6fc;
         margin-top: 25px;
         width: 96%;
         height: 550px;
@@ -1742,7 +1802,7 @@ h5 {
     }
 
     .clients {
-        height: 1300px;
+        height: 1100px;
         margin-top: 0;
     }
 
@@ -1763,6 +1823,8 @@ h5 {
 
     .clients .col-lg-5 {
         padding-left: 0px;
+        height: 496px;
+        margin-top: -29px;
     }
 
     .clients h4 {
