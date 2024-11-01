@@ -1685,10 +1685,8 @@ h5 {
         height: 634px;
     }
 
-    .sub {
-        margin-top: 42px;
-        border-radius: 36px;
-        margin-left: 18px;
+    .input-group .btn {
+      display: none;
     }
 
     .selfless .col-lg-7 h3 {
@@ -1717,6 +1715,13 @@ h5 {
     .certi-portion .input-group {
         width: 105%;
         margin-left: -10px;
+        border: none;
+    }
+    .input-group input{
+        height: 57px;
+    }
+    .certi-portion .input-group .btn{
+        margin-top: 1px;
     }
 
     .certi-portion .col-lg-6 {
@@ -1727,7 +1732,7 @@ h5 {
 
     .certi-portion img {
         width: 96%;
-        height: 270px;
+        height: 150px;
     }
 
     .ordinory {
