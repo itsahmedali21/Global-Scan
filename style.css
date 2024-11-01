@@ -1130,7 +1130,7 @@ h5 {
     .future h1 {
         opacity: 0.88;
         margin-top: 22px;
-        font-size: 28px;
+        font-size: 40px;
         margin-left: 12px;
         width: 555px;
         margin-bottom: 26px;
@@ -1358,10 +1358,9 @@ h5 {
 
 
     .connect {
-        margin-left: 23px;
-        font-size: 19px;
-        max-width: 276px;
-        margin-top: -2px;
+        margin-left: 9px;
+        font-size: 18px;
+        margin-top: 8px;
         font-weight: 700;
     }
 
