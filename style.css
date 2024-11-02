@@ -79,7 +79,7 @@ body {
 }
 
 .global .col-lg-6 img {
-    height: 540px;
+    height: 500px;
 }
 
 .global .col-lg-5 {
@@ -94,8 +94,11 @@ span {
     color: #111111;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    margin-top: 48px;
-    font-size: 72px;
+    line-height: 68px;
+    margin-top: 69px;
+    letter-spacing: -1.78px;
+    font-weight: 700;
+    font-size: 76px;
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
@@ -103,7 +106,10 @@ span {
     color: #111111;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    margin-top: 60px;
+    line-height: 66px;
     font-size: 72px;
+    letter-spacing: -1.5px;
     margin-left: 60px;
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
@@ -129,6 +135,7 @@ span {
 .scnd {
     font-family: "Inter", sans-serif;
     font-size: 19px;
+    padding-top: 30px;
     margin: 12px 0 0;
     font-weight: 300;
     color: #111111;
@@ -146,7 +153,7 @@ span {
 
 .imfor {
     height: 133px;
-    margin-top: 600px;
+    margin-top: 557px;
     background-color: #f6f9fc;
     border: 1px solid rgba(194, 175, 175, 0.656);
 }
@@ -224,6 +231,8 @@ section:nth-child(even) {
 
 .future h1 {
     font-size: 56px;
+    margin-top: -58px;
+    font-weight: 700;
 }
 
 .commit {
@@ -231,19 +240,21 @@ section:nth-child(even) {
     color: #111111;
     font-family: inter, sans-serif;
     font-weight: 500;
+    opacity: 0.91;
+    letter-spacing: -0.35px;
 }
 
 .hello {
     height: 433px;
-    float: inline-end;
+margin-left: 213px;
 }
 
 .dinest {
-    margin-top: 490px;
+    margin-top: 405px;
 }
 
 .frontend {
-    height: 430px;
+    height: 350px;
     margin-top: 55px;
 
 }
@@ -260,7 +271,7 @@ section:nth-child(even) {
 .Expert {
     background-color: #f6f9fc;
     margin-left: 23px;
-    height: 450px;
+    height: 438px;
 }
 
 .Expert .col-lg-5 img{
@@ -383,7 +394,7 @@ section:nth-child(even) {
 }
 
 .part {
-    margin-left: 22px;
+    margin-left: 9px;
     height: 150px;
     width: 300px;
 }
@@ -474,11 +485,17 @@ section:nth-child(even) {
 
 .contact-us {
     width: 1202px;
-    margin-left: 183px;
+    margin-left: 203px;
     height: 430px;
     background-color: #f6f9fc;
 }
 
+.digital{
+    margin-left: 141px;
+}
+.dragon{
+    margin-left: 184px;
+}
 .svg {
     height: 45px;
     width: 45px;
@@ -618,12 +635,12 @@ section:nth-child(even) {
 }
 
 .approched {
-    margin-top: 145px;
-    height: 990px;
+    margin-top: 60px;
+    height: 720px;
 }
 
 .approch img {
-    /* height: 685px; */
+    height: 485px;
 }
 
 .approch .btn {
@@ -652,7 +669,7 @@ section:nth-child(even) {
 .approch .col-lg-4 {
     height: 230px;
     margin-left: 12px;
-    background-color: #f6f6fc;
+    background-color: #f6f9fc;
     border-right: 1px dotted rgb(203, 192, 192);
     padding-top: 45px;
     padding-left: 34px;
@@ -661,7 +678,7 @@ section:nth-child(even) {
 .approch .col-lg-3 {
     height: 230px;
     margin-left: 12px;
-    background-color: #f6f6fc;
+    background-color: #f6f9fc;
     border-right: 1px dotted rgb(203, 192, 192);
     padding-top: 45px;
     width: 360px;
@@ -683,7 +700,7 @@ section:nth-child(even) {
 .clients {
     height: 950px;
     background-color: #f6f9fc;
-    margin-top: 755px;
+    margin-top: 555px;
     margin-left: 65px;
     width: 1208px;
 }
@@ -917,7 +934,6 @@ h5 {
 .certi-portion .input-group {
     width: 500px;
     height: 70px;
-    border: 1px solid gray;
     border-radius: 34px;
 }
 
@@ -1080,6 +1096,8 @@ h5 {
         font-size: 42px;
         letter-spacing: -1.5px;
         opacity: 1;
+        font-weight: 800;
+        max-width: 312px;
         line-height: 46px;
     }
 
@@ -1089,8 +1107,8 @@ h5 {
     }
 
     .scnd {
-        margin-top: 22px;
-        line-height: 31px;
+        margin-top: -32px;
+        line-height: 33px;
     }
 
     .dinest {
@@ -1136,6 +1154,15 @@ h5 {
         margin-bottom: 26px;
         font-weight: 700;
     }
+    .future .expert-life h1{
+        opacity: 0.88;
+        margin-top: 22px;
+        font-size: 26px;
+        margin-left: 12px;
+        width: 555px;
+        margin-bottom: 26px;
+        font-weight: 700;   
+    }
 
 
     .expert-life {
@@ -1152,12 +1179,12 @@ h5 {
     }
 
     .Expert {
-        height: 818px;
+               height: 704px;
     }
 
     .Expert .col-lg-5 img {
-        width: 310px;
-        height: 290px;
+        width: 336px;
+        height: 312px;
     }
 
     .type {
@@ -1169,6 +1196,7 @@ h5 {
     .Expert .col-lg-6 .hello {
         float: inline-start;
         height: 338px;
+        margin-left: 0;
         margin-top: -123px;
         width: 95%;
     }
@@ -1189,6 +1217,7 @@ h5 {
 
     .box-office-3 {
         height: 1700px;
+        margin-top: -23px;
     }
 
     .box-office-3 .local-sec .love {
@@ -1307,7 +1336,7 @@ h5 {
     }
 
     .box-office {
-        margin-top: 237px;
+        margin-top: 116px;
         height: 535px;
     }
 
@@ -1406,14 +1435,13 @@ h5 {
 
     .growthing {
         padding-left: 10px;
-        width: 380px;
         margin-top: 120px;
         height: 1240px;
         margin-left: 0px;
     }
 
     .growthing .col-lg-7 h1 {
-        font-size: 28px;
+        font-size: 32px;
         width: 288px;
     }
 
@@ -1525,8 +1553,8 @@ h5 {
     }
 
     .expert-life {
-        margin-top: -15px;
-        height: 400px;
+        margin-top: 142px;
+        height: 535px;
         padding-left: 73px;
     }
 
@@ -1807,7 +1835,7 @@ h5 {
 
     .clients {
         height: 1100px;
-        margin-top: 0;
+        margin-top: -136px;
     }
 
     .frst-section h1 {
@@ -1821,7 +1849,7 @@ h5 {
         font-weight: 700;
         text-align: center;
         line-height: 51px;
-        margin-left: -19px;
+        margin-left: 12px;
         margin-top: 123px;
     }
 
