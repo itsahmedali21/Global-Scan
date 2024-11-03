@@ -94,7 +94,7 @@ span {
     color: #111111;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    line-height: 68px;
+    line-height: 74px;
     margin-top: 69px;
     letter-spacing: -1.78px;
     font-weight: 700;
@@ -144,7 +144,11 @@ span {
 .thrd {
     background-color: #f6f9fc;
     font-size: 19px;
+    /* position: relative;
     font-weight: 600;
+    top: 13px; */
+    display: inline-block;
+    margin-top: 19px;
 }
 
 .thrd:hover {
@@ -246,7 +250,7 @@ section:nth-child(even) {
 
 .hello {
     height: 433px;
-margin-left: 213px;
+    margin-left: 213px;
 }
 
 .dinest {
@@ -274,7 +278,7 @@ margin-left: 213px;
     height: 438px;
 }
 
-.Expert .col-lg-5 img{
+.Expert .col-lg-5 img {
     height: 413px;
 }
 
@@ -346,7 +350,12 @@ margin-left: 213px;
 
 .box-office-3 {
     height: 700px;
-    margin-top: 156px;
+    margin-top: 56px;
+}
+
+.box-office-3 h1 {
+    font-size: 60px;
+    font-weight: 700;
 }
 
 .box-office-3 .local-sec {
@@ -427,16 +436,16 @@ margin-left: 213px;
 }
 
 .beauty {
-    width: 1202px;
-    margin-left: 203px;
+    width: 1300px;
+    margin-left: 124px;
     height: 440px;
     background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
     background-color: #111111;
 }
 
 .beauty-cermon {
-    width: 1202px;
-    margin-left: 183px;
+    width: 1300px;
+    margin-left: 124px;
     height: 440px;
     background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
     background-color: #111111;
@@ -484,18 +493,22 @@ margin-left: 213px;
 }
 
 .contact-us {
-    width: 1202px;
-    margin-left: 203px;
+    width: 1300px;
+    margin-left: 123px;
     height: 430px;
     background-color: #f6f9fc;
 }
 
-.digital{
+.digital {
     margin-left: 141px;
+    width: 1203px;
 }
-.dragon{
+
+.dragon {
     margin-left: 184px;
+    width: 1203px;
 }
+
 .svg {
     height: 45px;
     width: 45px;
@@ -512,7 +525,8 @@ margin-left: 213px;
 .footer {
     margin-left: 50px;
 }
-.footer h6{
+
+.footer h6 {
     font-size: 17px;
     font-weight: 700;
 }
@@ -792,6 +806,7 @@ margin-left: 213px;
 .beauty-parlour {
     margin-left: 183px;
     margin-top: 45px;
+    width: 1203px;
 }
 
 
@@ -917,6 +932,18 @@ h5 {
     margin-left: 33px;
 }
 
+.letter-items {
+    letter-spacing: -.32px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.89;
+    line-height: 24px;
+    display: block;
+}
+
 .certi-portion h1 {
     font-weight: 700;
     /* background-color: #185c90; */
@@ -928,7 +955,9 @@ h5 {
 }
 
 .certi-portion img {
-    height: 486px;
+    height: 438px;
+    width: 1223px;
+    margin-left: 13px;
 }
 
 .certi-portion .input-group {
@@ -948,7 +977,8 @@ h5 {
     opacity: 2;
     padding-left: 12px;
     font-weight: 700;
-    font-size: 25px
+    letter-spacing: -0.72px;
+    font-size: 25px;
 }
 
 .twenty-2 {
@@ -964,7 +994,7 @@ h5 {
 .jobs {
     margin-top: 75px;
     height: 300px;
-    margin-left: 33px;
+    margin-left: 11px;
 }
 
 .jobs h1 {
@@ -1052,9 +1082,16 @@ h5 {
         overflow-x: hidden;
         width: 100%;
     }
-   h1,h2,h3,h4,h5,h6,p{
-    opacity: 0.83;
-   }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        opacity: 0.83;
+    }
 
 
     .navbar-nav {
@@ -1077,6 +1114,11 @@ h5 {
         padding-left: 10px;
     }
 
+    .btn{
+        display: block;
+    }
+    .thrd{
+        width: 186px;}
     .general h1 {
         font-size: 28px;
         font-weight: 700;
@@ -1145,6 +1187,7 @@ h5 {
         color: #111111;
         opacity: 0.78;
     }
+
     .future h1 {
         opacity: 0.88;
         margin-top: 22px;
@@ -1154,14 +1197,15 @@ h5 {
         margin-bottom: 26px;
         font-weight: 700;
     }
-    .future .expert-life h1{
+
+    .future .expert-life h1 {
         opacity: 0.88;
         margin-top: 22px;
         font-size: 26px;
         margin-left: 12px;
         width: 555px;
         margin-bottom: 26px;
-        font-weight: 700;   
+        font-weight: 700;
     }
 
 
@@ -1179,11 +1223,11 @@ h5 {
     }
 
     .Expert {
-               height: 704px;
+        height: 704px;
     }
 
     .Expert .col-lg-5 img {
-        width: 336px;
+        width: 310px;
         height: 312px;
     }
 
@@ -1216,8 +1260,15 @@ h5 {
     }
 
     .box-office-3 {
-        height: 1700px;
+        height: 1506px;
         margin-top: -23px;
+    }
+
+    .box-office-3 h1 {
+        opacity: 0.89;
+        font-size: 35px;
+        font-weight: 800;
+        height: 50px;
     }
 
     .box-office-3 .local-sec .love {
@@ -1232,7 +1283,8 @@ h5 {
     .box-office-3 .local-sec {
         height: 630px;
     }
-    .men-meeting{
+
+    .men-meeting {
         margin-top: -120px;
     }
 
@@ -1323,6 +1375,7 @@ h5 {
     .box-office-2 .local-sec .col-lg-4 {
         margin-top: 13px;
         padding-right: 32px;
+        opacity: 0.88;
         width: 90%;
         margin-left: 18px;
     }
@@ -1345,7 +1398,8 @@ h5 {
         margin-top: -40px;
         width: 100%;
     }
-    .box-office h1{
+
+    .box-office h1 {
         font-size: 26px;
         opacity: 0.88;
     }
@@ -1402,7 +1456,7 @@ h5 {
     .local-sec .col-lg-4 h2 {
         font-size: 19px;
         display: block;
-        font-weight: 800;
+        font-weight: 700;
         opacity: 0.92;
 
     }
@@ -1410,8 +1464,8 @@ h5 {
     .local-sec .col-lg-3 h2 {
         font-size: 19px;
         display: block;
-        opacity: 0.92;
-        font-weight: 800;
+        font-weight: 700;
+        opacity: 0.89;
     }
 
     .show {
@@ -1472,13 +1526,14 @@ h5 {
         width: 100vw;
         margin-left: 0px;
     }
+
     .beauty-cermon {
         width: 100vw;
         margin-left: 0px;
         margin-top: 85px;
     }
 
-    
+
     .beauty-cermon h1 {
         font-family: "Inter", sans-serif;
         font-size: 35px;
@@ -1518,11 +1573,12 @@ h5 {
         margin-left: -27px;
         margin-top: 31px;
     }
-    .footer h6{
+
+    .footer h6 {
         font-size: 15px;
-    color: #111111;
-    font-weight: 700;
-    opacity: 1;
+        color: #111111;
+        font-weight: 700;
+        opacity: 1;
     }
 
     .footer a {
@@ -1591,9 +1647,10 @@ h5 {
         background-color: #f6f6fc;
     }
 
-    .approch img{
+    .approch img {
         height: 185px;
     }
+
     .approched {
         /* margin-top: 145px; */
         height: 990px;
@@ -1654,8 +1711,9 @@ h5 {
     }
 
     .content-creator h1 {
-        font-size: 45px;
+        font-size: 43px;
         line-height: 51px;
+        letter-spacing: -2px;
         opacity: 0.88;
         font-weight: 800;
     }
@@ -1713,8 +1771,12 @@ h5 {
         height: 634px;
     }
 
-    .input-group .btn {
-      display: none;
+    .input-group .sub {
+        border-radius: 43px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4px;
+        display: block;
     }
 
     .selfless .col-lg-7 h3 {
@@ -1737,18 +1799,33 @@ h5 {
     }
 
     .certi-portion h1 {
-        font-size: 42px;
+        font-size: 35px;
+        font-weight: 800;
+        opacity: 0.91;
+        margin-top: 0;
+        letter-spacing: -1.4px;
     }
 
+    .one2 {
+        height: 300px;
+        padding-top: 51px;
+    }
+
+    .ontime3{
+     height: 200px;
+        margin-top: -51px;
+    }
     .certi-portion .input-group {
         width: 105%;
         margin-left: -10px;
         border: none;
     }
-    .input-group input{
+
+    .input-group input {
         height: 57px;
     }
-    .certi-portion .input-group .btn{
+
+    .certi-portion .input-group .btn {
         margin-top: 1px;
     }
 
