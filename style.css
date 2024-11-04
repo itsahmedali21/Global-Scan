@@ -248,8 +248,8 @@ section:nth-child(even) {
 }
 
 .hello {
-    height: 433px;
-    margin-left: 213px;
+    height: 413px;
+    margin-left: 243px;
 }
 
 .dinest {
@@ -274,7 +274,7 @@ section:nth-child(even) {
 .Expert {
     background-color: #f6f9fc;
     margin-left: 23px;
-    height: 438px;
+    height: 418px;
 }
 
 .Expert .col-lg-5 img {
@@ -432,6 +432,7 @@ section:nth-child(even) {
 
 .growthing .col-lg-4 img {
     height: 500px;
+    margin-left: 30px;
 }
 
 .beauty {
@@ -1137,11 +1138,12 @@ h5 {
 
     .global .frst {
         font-size: 42px;
-        letter-spacing: -1.5px;
+        letter-spacing: -1.6px;
         opacity: 1;
-        font-weight: 800;
+        margin-top: 10px;
+        font-weight:600;
         max-width: 312px;
-        line-height: 46px;
+        line-height: 47px;
     }
 
     .global .col-lg-6 img {
@@ -1150,8 +1152,9 @@ h5 {
     }
 
     .scnd {
-        margin-top: -32px;
-        line-height: 33px;
+        margin-top: -14px;
+        line-height: 27px;
+        font-size: 17px;
     }
 
     .dinest {
@@ -1516,6 +1519,7 @@ h5 {
         width: 306px;
         margin-top: 95px;
         height: 308px;
+        margin-left: 0px;
     }
 
     .part {
@@ -2014,7 +2018,8 @@ h5 {
 
     .questions .col-lg-5 img {
         width: 96%;
-        height: 18rem;
+        
+        height: 16rem;
     }
 
     .questions .accordion-button {
