@@ -143,12 +143,11 @@ span {
 
 .thrd {
     background-color: #f6f9fc;
-    font-size: 19px;
-    /* position: relative;
-    font-weight: 600;
-    top: 13px; */
-    display: inline-block;
-    margin-top: 19px;
+    width: 163px;
+    letter-spacing: -0.8px;
+    margin-top: 20px;
+    margin-left: 7px;
+    padding: 13px 0px;
 }
 
 .thrd:hover {
@@ -856,6 +855,7 @@ h5 {
 
 .selfless {
     height: 700px;
+    padding-top: 52px;
     margin-left: 33px;
 }
 
@@ -891,6 +891,7 @@ h5 {
 }
 
 .selfless .col-lg-7 {
+    width: 884px;
     background-color: #f6f9fc;
     height: 350px;
     margin-left: 43px;
@@ -937,8 +938,8 @@ h5 {
     margin-top: 32px;
     margin-bottom: 0;
     padding-top: 0;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 400;
     opacity: 0.89;
     line-height: 24px;
     display: block;
@@ -1791,7 +1792,8 @@ h5 {
     }
 
     .paul {
-        padding-top: 0px;
+        margin-top: -18px;
+        padding-top: 0;
     }
 
     .selfless .col-lg-7 .w-embed {
@@ -1848,6 +1850,10 @@ h5 {
         margin-top: 666px;
         height: 1800px;
         margin-right: 5px;
+    }
+    .letter-items{
+        font-size: 16px;
+        font-weight: 600;
     }
 
     .today-lt .col-lg-6 {
