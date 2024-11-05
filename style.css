@@ -1140,6 +1140,9 @@ h5 {
     p {
         opacity: 0.83;
     }
+    .container{
+        width: 98%;
+    }
 
 
     .navbar-nav {
@@ -1243,7 +1246,7 @@ h5 {
     }
 
     .commit {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 700;
         margin-left: 10px;
         letter-spacing: 0.15px;
@@ -1295,8 +1298,8 @@ h5 {
     }
 
     .Expert .col-lg-5 img {
-        /* width: 310px; */
-        height: 324px;
+              width: 317px;
+              height: 324px;
     }
 
     .type {
@@ -1591,15 +1594,15 @@ h5 {
     }
 
     .growthing .col-lg-4 img {
-        width: 350px;
+        width: 315px;
         margin-top: 95px;
         height: 355px;
         margin-left: 0px;
     }
 
     .part {
+        width: 319px;
         margin-left: 0px;
-        width: 30%;
     }
 
     .beauty {
