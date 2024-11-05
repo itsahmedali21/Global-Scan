@@ -243,6 +243,7 @@ section:nth-child(even) {
     color: #111111;
     font-family: inter, sans-serif;
     font-weight: 500;
+    margin-left: 9px;
     opacity: 0.91;
     letter-spacing: -0.35px;
 }
@@ -269,6 +270,10 @@ section:nth-child(even) {
 
 .knowladge {
     height: 190px;
+}
+
+.cenitiaz {
+    margin-top: 5px;
 }
 
 .Expert {
@@ -309,7 +314,7 @@ section:nth-child(even) {
 
 .local-sec {
     margin-left: 23px;
-    margin-top: 34px;
+    margin-top: 54px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -347,6 +352,13 @@ section:nth-child(even) {
     margin-top: 156px;
 }
 
+.box-office-2 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    height: 100px;
+
+}
+
 .box-office-3 {
     height: 700px;
     margin-top: 56px;
@@ -364,6 +376,7 @@ section:nth-child(even) {
 
 .box-office-3 .knowladge {
     padding-left: 0px;
+    margin-top: 67px;
 }
 
 .ordinory {
@@ -376,6 +389,7 @@ section:nth-child(even) {
     width: 350px;
     font-size: 23px;
     margin-left: 23px;
+
 }
 
 .expert-life {
@@ -499,6 +513,11 @@ section:nth-child(even) {
     background-color: #f6f9fc;
 }
 
+.contact-us .col-lg-5 {
+    padding-top: 75px;
+    padding-left: 24px;
+}
+
 .digital {
     margin-left: 141px;
     width: 1203px;
@@ -554,20 +573,20 @@ section:nth-child(even) {
     font-size: 24px;
 }
 
-.card img {
-    transition: transform .5s;
-}
-
-.card img:hover {
-    transform: scale(1.1);
-}
 
 .card-title {
+    font-weight: 600;
     color: #111111;
     width: 383px;
     margin-top: 13px;
-    font-size: 18px;
+    font-size: 19px;
+    opacity: 2;
     margin-left: 16px;
+}
+
+.frst-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 
@@ -575,6 +594,19 @@ section:nth-child(even) {
     background-color: #f6f9fc;
     margin-left: 63px;
     height: 900px;
+}
+
+#flush-collapseOne,
+#flush-collapseTwo,
+#flush-collapseThree,
+#flush-collapsefour,
+#flush-collapsefive {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #f6f9fc;
+    font-size: 17px;
+    font-weight: 600;
+    font-weight: 500;
 }
 
 .questions h1 {
@@ -860,6 +892,10 @@ h5 {
     margin-left: 33px;
 }
 
+.fitness {
+    width: 250px;
+}
+
 .content-creator h1 {
     font-size: 76px;
     max-width: 754px;
@@ -1047,6 +1083,16 @@ h5 {
     padding-left: 75px;
 }
 
+.livetik h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.fluider h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
 .local-sher {
     height: 800px;
     padding-left: 75px;
@@ -1097,14 +1143,17 @@ h5 {
 
 
     .navbar-nav {
-        margin-top: 30px;
+        margin-top: 3px;
+        margin-left: 0;
     }
 
     .navbar-nav .nav-link {
         font-size: 17px;
         margin-top: 10px;
-        margin-left: -20px;
+        font-weight: 600;
+        letter-spacing: -2px;
         letter-spacing: 1px;
+        text-align: center;
     }
 
     .row {
@@ -1116,11 +1165,14 @@ h5 {
         padding-left: 10px;
     }
 
-    .btn{
+    .btn {
         display: block;
     }
-    .thrd{
-        width: 186px;}
+
+    .thrd {
+        width: 160px;
+    }
+
     .general h1 {
         font-size: 28px;
         font-weight: 700;
@@ -1136,12 +1188,17 @@ h5 {
         margin-left: 22px;
     }
 
+    .global {
+        height: 700px;
+        margin-left: -6px;
+    }
+
     .global .frst {
         font-size: 42px;
         letter-spacing: -1.6px;
         opacity: 1;
         margin-top: 10px;
-        font-weight:600;
+        font-weight: 600;
         max-width: 312px;
         line-height: 47px;
     }
@@ -1178,6 +1235,7 @@ h5 {
     .infinite {
         margin-top: 730px;
         width: 96%;
+        height: 300px;
     }
 
     .infinite-2 {
@@ -1187,6 +1245,7 @@ h5 {
     .commit {
         font-size: 18px;
         font-weight: 700;
+        margin-left: 10px;
         letter-spacing: 0.15px;
         color: #111111;
         opacity: 0.78;
@@ -1196,7 +1255,6 @@ h5 {
         opacity: 0.88;
         margin-top: 22px;
         font-size: 40px;
-        margin-left: 12px;
         width: 555px;
         margin-bottom: 26px;
         font-weight: 700;
@@ -1220,6 +1278,12 @@ h5 {
 
     .future {
         height: 788px;
+        margin-top: 14px;
+    }
+
+    .future p {
+        margin-top: 12px;
+        margin-left: 18px;
     }
 
     .local-sec {
@@ -1231,8 +1295,8 @@ h5 {
     }
 
     .Expert .col-lg-5 img {
-        width: 310px;
-        height: 312px;
+        /* width: 310px; */
+        height: 324px;
     }
 
     .type {
@@ -1256,23 +1320,31 @@ h5 {
 
     .visible {
         height: 800px;
+        margin-left: -4px;
     }
 
     .box-office-2 {
         margin-top: 371px;
-        height: 2030px;
+        height: 2107px;
+    }
+
+    .box-office-2 h1 {
+        font-size: 26px;
+        letter-spacing: -1px;
+        height: 40px;
+        font-weight: 700;
     }
 
     .box-office-3 {
-        height: 1506px;
-        margin-top: -23px;
+        height: 1554px;
+        margin-top: 63px;
     }
 
     .box-office-3 h1 {
         opacity: 0.89;
         font-size: 35px;
         font-weight: 800;
-        height: 50px;
+        height: 90px;
     }
 
     .box-office-3 .local-sec .love {
@@ -1282,6 +1354,7 @@ h5 {
     .box-office-3 .knowladge .col-lg-4 {
         margin-left: -16px;
         width: 95%;
+        height: 190px;
     }
 
     .box-office-3 .local-sec {
@@ -1319,10 +1392,11 @@ h5 {
 
     .frst-2 {
         margin-left: 0px;
-        font-weight: 800;
-        opacity: 0.81;
+        font-weight: 700;
+        opacity: 1;
+        max-width: 111px;
         color: #111111;
-        line-height: 46px;
+        line-height: 41px;
         letter-spacing: -0.75px;
         font-size: 40px;
     }
@@ -1340,6 +1414,7 @@ h5 {
         font-size: 46px;
         margin-left: 0px;
         max-width: 257px;
+        line-height: 48px;
         margin-top: 30px;
         font-weight: 700;
         letter-spacing: -3.05px;
@@ -1368,7 +1443,7 @@ h5 {
     }
 
     .box-office-2 .knowladge {
-        margin-top: 50px;
+        margin-top: 110px;
     }
 
     .box-office-2 .local-sec {
@@ -1377,7 +1452,7 @@ h5 {
     }
 
     .box-office-2 .local-sec .col-lg-4 {
-        margin-top: 13px;
+        margin-top: 23px;
         padding-right: 32px;
         opacity: 0.88;
         width: 90%;
@@ -1394,9 +1469,8 @@ h5 {
 
     .box-office {
         margin-top: 116px;
-        height: 535px;
+        height: 435px;
     }
-
     .box-office .local-sec {
         height: 293px;
         margin-top: -40px;
@@ -1404,8 +1478,9 @@ h5 {
     }
 
     .box-office h1 {
-        font-size: 26px;
-        opacity: 0.88;
+        font-size: 31px;
+        font-weight: 700;
+        height: 99px;
     }
 
     .box-office .col-lg-3 {
@@ -1499,7 +1574,7 @@ h5 {
     }
 
     .growthing .col-lg-7 h1 {
-        font-size: 32px;
+        font-size: 25px;
         width: 288px;
     }
 
@@ -1516,14 +1591,15 @@ h5 {
     }
 
     .growthing .col-lg-4 img {
-        width: 306px;
+        width: 350px;
         margin-top: 95px;
-        height: 308px;
+        height: 355px;
         margin-left: 0px;
     }
 
     .part {
         margin-left: 0px;
+        width: 30%;
     }
 
     .beauty {
@@ -1565,6 +1641,9 @@ h5 {
         height: 957px;
         width: 98%;
     }
+    .contact-us .col-lg-5{
+        padding-top: 75px; padding-left: 10px;
+    }
 
     .contact-us .col-lg-7 {
         margin-top: 165px;
@@ -1603,6 +1682,11 @@ h5 {
     .knowladge {
         margin-top: 2310px;
         height: 400px;
+    }
+
+    .cenitiaz {
+        position: relative;
+        top: -80px;
     }
 
     .knowladge .col-lg-4 p {
@@ -1647,9 +1731,9 @@ h5 {
     }
 
     .approch {
-        height: 1400px;
+        height: 1280px;
         margin-left: -15px;
-        background-color: #f6f6fc;
+        background-color: #f6f9fc;
     }
 
     .approch img {
@@ -1761,6 +1845,10 @@ h5 {
         width: 95%;
     }
 
+    .fitness {
+        width: 100%;
+    }
+
     .selfless .col-lg-3 h3 {
         margin-top: -160px;
         font-weight: 700;
@@ -1805,9 +1893,10 @@ h5 {
     }
 
     .certi-portion h1 {
-        font-size: 35px;
-        font-weight: 800;
+        font-size: 29px;
+        font-weight: 700;
         opacity: 0.91;
+        height: 80px;
         margin-top: 0;
         letter-spacing: -1.4px;
     }
@@ -1817,10 +1906,11 @@ h5 {
         padding-top: 51px;
     }
 
-    .ontime3{
-     height: 200px;
+    .ontime3 {
+        height: 200px;
         margin-top: -51px;
     }
+
     .certi-portion .input-group {
         width: 105%;
         margin-left: -10px;
@@ -1850,12 +1940,18 @@ h5 {
         padding-left: 10px;
     }
 
+    .ordinory .col-lg-4 {
+        margin-top: -133px;
+        width: 100%;
+    }
+
     .today-lt {
         margin-top: 666px;
         height: 1800px;
         margin-right: 5px;
     }
-    .letter-items{
+
+    .letter-items {
         font-size: 16px;
         font-weight: 600;
     }
@@ -1922,7 +2018,7 @@ h5 {
 
     .clients {
         height: 1100px;
-        margin-top: -136px;
+        margin-top: 26px;
     }
 
     .frst-section h1 {
@@ -1959,10 +2055,32 @@ h5 {
     }
 
     .livetik {
-        height: 1400px;
+        height: 1300px;
         padding-left: 0px;
         width: 95%;
         margin-top: 45px;
+    }
+
+    .livetik h1 {
+        font-size: 46px;
+        opacity: 2;
+        letter-spacing: -3px;
+    }
+
+    .livetik h2 {
+        font-size: 34px;
+        font-weight: 700;
+        letter-spacing: -2px;
+        opacity: 2;
+    }
+
+    .fluider {
+        margin-top: 23px;
+    }
+
+    .fluider h1 {
+        font-size: 26px;
+        letter-spacing: -1px;
     }
 
     .local-sher {
@@ -1985,8 +2103,8 @@ h5 {
     }
 
     .local-sher .col-lg-6 h5 {
-        font-size: 18px;
-        font-weight: 900;
+        font-size: 17px;
+        font-weight: 700;
         margin-left: 0px;
         color: #111111;
         opacity: 5;
@@ -2008,6 +2126,16 @@ h5 {
         padding-top: 0px;
     }
 
+    #flush-collapseOne,
+    #flush-collapseTwo,
+    #flush-collapseThree,
+    #flush-collapsefour,
+    #flush-collapsefive {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0;
+    }
+
     .questions .col-lg-5 .accordion {
         margin-top: 0px;
     }
@@ -2018,7 +2146,7 @@ h5 {
 
     .questions .col-lg-5 img {
         width: 96%;
-        
+
         height: 16rem;
     }
 
