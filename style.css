@@ -443,21 +443,6 @@ section:nth-child(even) {
     margin-left: 30px;
 }
 
-.beauty {
-    width: 1300px;
-    margin-left: 124px;
-    height: 440px;
-    background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
-    background-color: #111111;
-}
-
-.beauty-cermon {
-    width: 1300px;
-    margin-left: 124px;
-    height: 440px;
-    background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
-    background-color: #111111;
-}
 
 .beauty-group {
     height: 440px;
@@ -467,29 +452,7 @@ section:nth-child(even) {
     background-color: #111111;
 }
 
-.beauty-control {
-    width: 1202px;
-    margin-left: 133px;
-    height: 440px;
-    background: url("https://cdn.prod.website-files.com/66c3c2f2488e999b82d81e91/66c3c2f2488e999b82d81e9d_Group%201000017134.svg");
-    background-color: #111111;
-}
 
-.beauty h1 {
-    font-family: "Inter", sans-serif;
-    font-size: 57px;
-    font-weight: 600;
-    padding-top: 125px;
-    max-width: 666px;
-}
-
-.beauty-cermon h1 {
-    font-family: "Inter", sans-serif;
-    font-size: 57px;
-    font-weight: 600;
-    padding-top: 125px;
-    max-width: 666px;
-}
 
 .beauty-group h1 {
     font-family: "Inter", sans-serif;
@@ -829,11 +792,6 @@ section:nth-child(even) {
     height: 900px;
     width: 1205px;
 }
-
-.beauty-parlour {
-    margin-top: 45px;
-}
-
 
 .content-portion {
     height: 233px;
@@ -1382,13 +1340,6 @@ width: 1200px;
         max-width: 666px;
     }
 
-    .beauty-control h1 {
-        font-family: "Inter", sans-serif;
-        font-size: 50px;
-        font-weight: 600;
-        padding-top: 66px;
-    }
-
     .frst-2 {
         margin-left: 0px;
         font-weight: 700;
@@ -1599,39 +1550,6 @@ width: 1200px;
     .part {
         width: 319px;
         margin-left: 0px;
-    }
-
-    .beauty {
-        margin-top: 584px;
-        width: 100vw;
-        margin-left: 0px;
-    }
-
-    .beauty-cermon {
-        width: 100vw;
-        margin-left: 0px;
-        margin-top: 85px;
-    }
-
-
-    .beauty-cermon h1 {
-        font-family: "Inter", sans-serif;
-        font-size: 35px;
-        opacity: 0.81;
-        font-weight: 800;
-        padding-top: 125px;
-    }
-
-    .beauty-parlour {
-        margin-top: 40px;
-    }
-
-    .beauty h1 {
-        font-family: "Inter", sans-serif;
-        font-size: 35px;
-        opacity: 0.81;
-        font-weight: 800;
-        padding-top: 125px;
     }
 
     .contact-us {
