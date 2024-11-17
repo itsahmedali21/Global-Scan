@@ -1055,6 +1055,7 @@ width: 1200px;
 
 .local-sher .card-img-top {
     height: 24rem;
+    width: 24rem;
 }
 
 .local-sher .col-lg-6 .lead {
@@ -1096,6 +1097,7 @@ width: 1200px;
 
     .cleaner{
         margin-left: 2px;
+        margin-right: 0;
     }
 
     .navbar-nav {
@@ -1123,7 +1125,7 @@ width: 1200px;
 
     .btn {
         display: block;
-        width: 190px;
+        /* width: 190px; */
     }
 
     .thrd {
@@ -1725,7 +1727,8 @@ width: 1200px;
     }
 
     .teammates {
-        height: 1700px;
+        height: 2122px;
+        width: 100%;
     }
 
     .content-portion {
@@ -1813,6 +1816,8 @@ width: 1200px;
         font-size: 29px;
         font-weight: 700;
         opacity: 0.91;
+        margin-bottom: 0;
+        width: 333px;
         height: 80px;
         margin-top: 0;
         letter-spacing: -1.4px;
@@ -1866,11 +1871,13 @@ width: 1200px;
         margin-top: 666px;
         height: 1800px;
         margin-right: 5px;
+        width: 100%;
     }
 
     .letter-items {
         font-size: 16px;
         font-weight: 600;
+        width: 283px;
     }
 
     .today-lt .col-lg-6 {
@@ -1897,6 +1904,11 @@ width: 1200px;
         margin-left: 3px;
         letter-spacing: -0.67px;
         opacity: 0.39;
+    }
+    .jobs{
+        width: 1200px;
+        margin-top: 5px;
+        height: 641px;
     }
 
     .jobs h1 {
@@ -2031,8 +2043,8 @@ width: 1200px;
 
     .local-sher .card-img-top {
         height: 15rem;
+        width: 22rem;
     }
-
     .local-sher .col-lg-6 .lead {
         margin-left: 0px;
     }
